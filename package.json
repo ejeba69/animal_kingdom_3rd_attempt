@@ -1,0 +1,23 @@
+{
+  "name": "3_animal_kingdom",
+  "version": "1.0.0",
+  "description": "__20:23 fri oct7 wk40 2022__ This is a freestyle edition. I'm trying to set up an API  that users can enter the names of any animal that they know. This is me exploring node js and all its goodness at my present level! ",
+  "main": "app",
+  "author": "Emmanuel Eni <eejeba@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+  	"start": "node",
+  	"dev": "nodemon",
+  	"test": "jest"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.5"
+  },
+  "devDependencies": {
+    "jest": "^29.1.2",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.0"
+  }
+}
